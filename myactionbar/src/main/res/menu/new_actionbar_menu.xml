@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.newer.myactionbar.MainActivity">
+
+    <item
+        android:id="@+id/menu_new_call"
+        android:icon="@drawable/ic_action_call"
+        android:title="拨号"
+        android:orderInCategory="1"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_new_call1"
+        android:icon="@drawable/ic_action_copy"
+        android:orderInCategory="2"
+        android:title="复制"
+        app:actionProviderClass="com.newer.myactionbar.MyActionProvider"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_new_call2"
+        android:icon="@drawable/ic_action_cut"
+        android:orderInCategory="3"
+        android:title="粘贴"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_new_call3"
+        android:icon="@drawable/ic_action_call"
+        android:orderInCategory="4"
+        android:title="打电话"
+        app:showAsAction="never|withText"/>
+</menu>
