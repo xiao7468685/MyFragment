@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>http://mobile.baosteel.com/iPlatMBS/appFiles/BaoSteel_512_512.png</string>
+					<string>http://59.41.255.73:8080/iPlatMBS/appFiles/BaoSteel_512_512.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,15 +27,15 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>http://moble.baosteel.com/iPlatMBS/appstore/release/com.baosight.baosecurityForiPhone/com.baosight.baosecurityForiPhone.png</string>
+					<string>http://59.41.255.73:8080/iPlatMBS/appstore/release/com.baosight.jfe.securityForiPhone/com.baosight.jfe.securityForiPhone.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.baosight.baosecurityForiPhone </string>
+				<string>com.baosight.jfe.securityForiPhone</string>
 				<key>bundle-version</key>
-				<string>1.0.11</string>
+				<string>1.0.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
